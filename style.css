@@ -53,3 +53,9 @@ h1{
     margin: 0 auto;
     transition: all .21s linear;
 }
+
+.item-input:checked ~ .item-img{
+    width: 10em;
+    height: 10em;
+    transition: all .21s linear;
+}
