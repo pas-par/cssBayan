@@ -59,6 +59,13 @@ h1{
     height: 10em;
     transition: all .21s linear;
 }
+.item-input:checked ~ .item-title .title-img {
+    transform: rotate(180deg);
+    transition: all .21s linear;
+}
+
+
+
 
 @media screen and (min-width: 820px) {
     h1{
@@ -91,6 +98,10 @@ h1{
     .item-input:hover ~ .item-img{
         width: 20em;
         height: 20em;
+        transition: all .21s linear;
+    }
+    .item-input:hover ~ .item-title .title-img {
+        transform: rotate(180deg);
         transition: all .21s linear;
     }
 
