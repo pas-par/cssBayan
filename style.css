@@ -59,3 +59,39 @@ h1{
     height: 10em;
     transition: all .21s linear;
 }
+
+@media screen and (min-width: 820px) {
+    h1{
+        font-size: 3rem;
+    }
+    .item-title{
+        font-size: 2rem;
+    }
+    .item-input:checked ~ .item-img{
+        width: 15em;
+        height: 15em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1{
+        font-size: 4rem;
+    }
+    .item-title{
+        font-size: 3rem;
+    }
+    .bayan:hover  .item-title{
+        background-color: rgb(238, 191, 191);
+        color: white;
+    }
+    .item-input:checked ~ .item-img{
+        width: 20em;
+        height: 20em;
+    }
+    .item-input:hover ~ .item-img{
+        width: 20em;
+        height: 20em;
+        transition: all .21s linear;
+    }
+
+}
